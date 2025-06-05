@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>五行棋游戏说明</title>
+    <style>
+        /* 使用系统默认字体 */
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; }
+        h1, h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        .feature-list, .rule-list { list-style: none; padding-left: 20px; }
+        .feature-list li::before, .rule-list li::before { content: "- "; color: #3498db; }
+        .link { color: #3498db; text-decoration: none; }
+        .link:hover { text-decoration: underline; }
+        .update-item, .feedback-item { margin: 10px 0; }
+        
+        /* 语言切换标签页 */
+        .lang-tabs { display: flex; margin-bottom: 20px; border-bottom: 2px solid #3498db; }
+        .lang-tab { padding: 10px 15px; cursor: pointer; font-weight: bold; }
+        .lang-tab.active { background-color: #3498db; color: white; }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+    </style>
+</head>
+<body>
+    <!-- 语言切换标签 -->
+    <div class="lang-tabs">
+        <div class="lang-tab active" data-lang="zh">中文</div>
+        <div class="lang-tab" data-lang="en">English</div>
+        <div class="lang-tab" data-lang="jp">日本語</div>
+        <div class="lang-tab" data-lang="kr">한국어</div>
+    </div>
+
+    <!-- 中文内容 -->
+    <div class="lang-content active" id="lang-zh">
+        <h1>五行棋</h1>
+        <p><strong>智力与运气交织的多人策略游戏</strong><br>支持 <strong>2-4人</strong> 智力博弈，融合传统五子玩法与中国五行元素（金木水火土）。</p>  
+
+        <h2>游戏特色</h2>  
+        <ul class="feature-list">  
+            <li><strong>核心元素</strong>：5种基础元素（金、木、水、火、土）</li>  
+            <li><strong>卡牌构成</strong>：  
+                <ul>  
+                    <li>单元素卡牌：5种，每种10张，共50张</li>  
+                    <li>双元素卡牌：10种（如金+木、金+水等），每种10张，共100张</li>  
+                    <li>四元素卡牌：5种（如金+木+水+火），每种10张，共50张</li>  
+                </ul>  
+            </li>  
+        </ul>  
+
+        <h2>游戏机制</h2>  
+        <ol class="rule-list">  
+            <li><strong>属性分配</strong>：随机分配唯一元素属性（不重复），玩家初始隐藏属性。</li>  
+            <li><strong>卡牌获取</strong>：每局开始时，每位玩家获得 <strong>3张卡牌</strong>（暂时定为3张，后期可能进行调整）。</li>  
+            <li><strong>回合规则</strong>：每回合仅可打出 <strong>1张卡牌</strong>，放置于棋盘任意位置。</li>  
+            <li><strong>胜利条件</strong>：  
+                <ul>  
+                    <li>任意元素达成 <strong>五子连线</strong>（横/竖/斜），对应属性玩家获胜。</li>  
+                    <li>若多元素同时达成连线，以 <strong>当前回合出牌顺序</strong> 判定，后出牌者胜。</li>  
+                </ul>  
+            </li>
+            <li><strong>策略目标</strong>：构建自身元素连线，同时阻挡对手形成五子连线。</li>  
+        </ol>  
+
+        <h2>未来更新计划</h2>  
+        <div class="update-item">  
+            <strong>1. 技能卡牌系统</strong><br>新增特殊效果卡牌（如移除对手棋子、交换元素等）。  
+        </div>  
+        <div class="update-item">  
+            <strong>2. 多元竞技模式</strong><br>纯元素卡牌模式 / 元素+技能混合模式 / 限时对战模式等。  
+        </div>  
+
+        <h2>玩家反馈渠道</h2>  
+        <div class="feedback-item">  
+            <strong>1. 多语言优化</strong><br>若发现翻译问题，欢迎通过 GitHub 反馈（支持中文/英文等）。  
+        </div>  
+        <div class="feedback-item">  
+            <strong>2. 美术协作</strong><br>期待美术爱好者参与界面设计与素材创作，提供建议或资源。  
+        </div>  
+        <div class="feedback-item">  
+            <strong>3. 官方反馈地址</strong><br>  
+             <a class="link" href="https://github.com/shineforwu/wu_xing_qi_support" target="_blank">GitHub</a> /  
+            <a class="link" href="https://gitee.com/ShineForWu/wu_xing_qi_support" target="_blank">Gitee</a> /    
+        </div>  
+    </div>
+
+    <!-- 英文内容 -->
+    <div class="lang-content" id="lang-en">
+        <h1>Five Elements Chess</h1>
+        <p><strong>A Multiplayer Strategy Game Combining Intelligence and Luck</strong><br>Supports <strong>2-4 players</strong>, integrating traditional Gomoku gameplay with the five Chinese elements (Metal, Wood, Water, Fire, Earth).</p>  
+
+        <h2>Game Features</h2>  
+        <ul class="feature-list">  
+            <li><strong>Core Elements</strong>: Five fundamental elements (Metal, Wood, Water, Fire, Earth)</li>  
+            <li><strong>Card Composition</strong>:  
+                <ul>  
+                    <li>Single-element Cards: 5 types, 10 cards each, 50 cards total</li>  
+                    <li>Dual-element Cards: 10 types (e.g., Metal+Wood, Metal+Water), 10 cards each, 100 cards total</li>  
+                    <li>Four-element Cards: 5 types (e.g., Metal+Wood+Water+Fire), 10 cards each, 50 cards total</li>  
+                </ul>  
+            </li>
+        </ul>  
+
+        <h2>Game Mechanics</h2>  
+        <ol class="rule-list">  
+            <li><strong>Element Assignment</strong>: Each player is randomly assigned a unique element (no duplicates), kept secret initially.</li>  
+            <li><strong>Card Acquisition</strong>: Each player starts with <strong>3 cards</strong> per game (temporarily set at 3, subject to adjustment in future updates).</li>  
+            <li><strong>Turn Rules</strong>: Play <strong>1 card</strong> per turn and place it anywhere on the board.</li>  
+            <li><strong>Victory Conditions</strong>:  
+                <ul>  
+                    <li>Connect <strong>five elements</strong> in a row (horizontally, vertically, or diagonally) to win.</li>  
+                    <li>If multiple elements connect five simultaneously, the player who played their card last in the current turn wins.</li>  
+                </ul>  
+            </li>
+            <li><strong>Strategic Goals</strong>: Build your own element connections while blocking opponents.</li>  
+        </ol>  
+
+        <h2>Future Updates</h2>  
+        <div class="update-item">  
+            <strong>1. Skill Card System</strong><br>New cards with special effects (e.g., remove opponent's pieces, swap elements).  
+        </div>  
+        <div class="update-item">  
+            <strong>2. Multiple Game Modes</strong><br>Pure element card mode, mixed element+skill mode, timed battles, etc.  
+        </div>  
+
+        <h2>Player Feedback</h2>  
+        <div class="feedback-item">  
+            <strong>1. Multilingual Support</strong><br>Report translation issues via GitHub (supports Chinese/English, etc.).  
+        </div>  
+        <div class="feedback-item">  
+            <strong>2. Art Collaboration</strong><br>Art enthusiasts are welcome to contribute to UI design and assets.  
+        </div>  
+        <div class="feedback-item">  
+            <strong>3. Official Feedback</strong><br>  
+            <a class="link" href="https://github.com/shineforwu/wu_xing_qi_support" target="_blank">GitHub</a> /  
+            <a class="link" href="https://gitee.com/ShineForWu/wu_xing_qi_support" target="_blank">Gitee</a> /    
+        </div>  
+    </div>
+
+    <!-- 日文内容 -->
+    <div class="lang-content" id="lang-jp">
+        <h1>五行棋（ごぎょうぎ）</h1>
+        <p><strong>知力と運を絡めた多人戦略ゲーム</strong><br>最大 <strong>2-4人</strong> でプレイ可能で、伝統的な五子ゲームと中国五行思想（金・木・水・火・土）を融合しました。</p>  
+
+        <h2>ゲーム特徴</h2>  
+        <ul class="feature-list">  
+            <li><strong>核心要素</strong>：5種類の基本元素（金、木、水、火、土）</li>  
+            <li><strong>カード構成</strong>：  
+                <ul>  
+                    <li>単一元素カード：5種類、各10枚、計50枚</li>  
+                    <li>複合元素カード：10種類（金+木、金+水など）、各10枚、計100枚</li>  
+                    <li>四元素カード：5種類（金+木+水+火など）、各10枚、計50枚</li>  
+                </ul>  
+            </li>
+        </ul>  
+
+        <h2>ゲームメカニズム</h2>  
+        <ol class="rule-list">  
+            <li><strong>属性割り当て</strong>：ランダムに一意の元素属性が割り当てられ（重複なし）、プレイヤーの属性は初期状態で非公開。</li>  
+            <li><strong>カード取得</strong>：各ゲーム開始時に、各プレイヤーは <strong>3枚のカード</strong> を取得（暫定的に3枚としていますが、後に調整される可能性があります）。</li>  
+            <li><strong>ターンルール</strong>：各ターンで <strong>1枚のカード</strong> を打ち、盤上の任意の位置に配置。</li>  
+            <li><strong>勝利条件</strong>：  
+                <ul>  
+                    <li>任意の元素が <strong>5つ連続</strong>（横・縦・斜め）で並ぶと、その元素のプレイヤーが勝利。</li>  
+                    <li>複数の元素が同時に5つ連続した場合、現在のターンで最後にカードを打ったプレイヤーが勝利。</li>  
+                </ul>  
+            </li>
+            <li><strong>戦略目標</strong>：自らの元素を連結させると同時に、敵の連結を阻止する。</li>  
+        </ol>  
+
+        <h2>将来のアップデート計画</h2>  
+        <div class="update-item">  
+            <strong>1. スキルカードシステム</strong><br>特殊効果付きの新カード（敵の駒を削除、元素を交換するなど）を追加。  
+        </div>  
+        <div class="update-item">  
+            <strong>2. 多元的な競技モード</strong><br>純粋な元素カードモード、元素+スキル混合モード、タイム制対戦モードなど。  
+        </div>  
+
+        <h2>プレイヤーフィードバック</h2>  
+        <div class="feedback-item">  
+            <strong>1. 多言語最適化</strong><br>翻訳に問題がある場合は、GitHubを通じてご報告いただけます（中国語/英語などに対応）。  
+        </div>  
+        <div class="feedback-item">  
+            <strong>2. 美術協力</strong><br>UIデザインや素材作成に協力していただける美術愛好家の方々の参画をお待ちしています。  
+        </div>  
+        <div class="feedback-item">  
+            <strong>3. 公式フィードバック先</strong><br>  
+           <a class="link" href="https://github.com/shineforwu/wu_xing_qi_support" target="_blank">GitHub</a> /  
+            <a class="link" href="https://gitee.com/ShineForWu/wu_xing_qi_support" target="_blank">Gitee</a> /    
+        </div>  
+    </div>
+
+    <!-- 韩文内容 -->
+    <div class="lang-content" id="lang-kr">
+        <h1>오행기(五行棋)</h1>
+        <p><strong>지력과 운을 결합한 다인용 전략 게임</strong><br><strong>2-4인</strong>용 전략 게임으로, 전통 오목 게임과 중국의 오행(금, 목, 수, 화, 토) 개념을 결합했습니다.</p>  
+
+        <h2>게임 특징</h2>  
+        <ul class="feature-list">  
+            <li><strong>핵심 요소</strong>：5가지 기본 요소(금, 목, 수, 화, 토)</li>  
+            <li><strong>카드 구성</strong>：  
+                <ul>  
+                    <li>단일 요소 카드：5종류, 각 10장, 총 50장</li>  
+                    <li>복합 요소 카드：10종류(예: 금+목, 금+수 등), 각 10장, 총 100장</li>  
+                    <li>사요소 카드：5종류(예: 금+목+수+화), 각 10장, 총 50장</li>  
+                </ul>  
+            </li>
+        </ul>  
+
+        <h2>게임 메커니즘</h2>  
+        <ol class="rule-list">  
+            <li><strong>속성 할당</strong>：무작위로 고유한 요소 속성이 할당되며(중복 불가), 플레이어의 속성은 초기에 비공개 상태입니다.</li>  
+            <li><strong>카드 획득</strong>：각 게임 시작 시, 각 플레이어는 <strong>3장의 카드</strong>를 받습니다(현재 3장으로 임시 설정되어 있으며, 추후 조정될 수 있습니다).</li>  
+            <li><strong>턴 규칙</strong>：각 턴마다 <strong>1장의 카드</strong>를 놓을 수 있으며, 체스판의 원하는 위치에 배치할 수 있습니다.</li>  
+            <li><strong>승리 조건</strong>：  
+                <ul>  
+                    <li>임의의 요소가 <strong>5개 연속</strong>(가로/세로/대각선)으로 연결되면 해당 요소의 플레이어가 승리합니다.</li>  
+                    <li>여러 요소가 동시에 5개 연속으로 연결된 경우, 현재 턴에서 마지막으로 카드를 놓은 플레이어가 승리합니다.</li>  
+                </ul>  
+            </li>
+            <li><strong>전략 목표</strong>：자신의 요소를 연결하는 동시에 상대방의 연결을 방해합니다.</li>  
+        </ol>  
+
+        <h2>향후 업데이트 계획</h2>  
+        <div class="update-item">  
+            <strong>1. 스킬 카드 시스템</strong><br>특수 효과 카드(예: 상대방의 기물 제거, 요소 교환 등)를 추가합니다.  
+        </div>  
+        <div class="update-item">  
+            <strong>2. 다양한 경기 모드</strong><br>순수 요소 카드 모드, 요소+스킬 혼합 모드, 시간 제한 대전 모드 등을 추가합니다.  
+        </div>  
+
+        <h2>플레이어 피드백 채널</h2>  
+        <div class="feedback-item">  
+            <strong>1. 다국어 최적화</strong><br>번역 문제가 발견되면 GitHub를 통해 피드백해 주시기 바랍니다(중국어/영어 등 지원).  
+        </div>  
+        <div class="feedback-item">  
+            <strong>2. 아트 협력</strong><br>UI 디자인 및 자산 제작에 도움을 주실 아트 애호가들의 참여를 기다립니다.</div>  
+        <div class="feedback-item">  
+            <strong>3. 공식 피드백 주소</strong><br>  
+            <a class="link" href="https://github.com/shineforwu/wu_xing_qi_support" target="_blank">GitHub</a> /  
+            <a class="link" href="https://gitee.com/ShineForWu/wu_xing_qi_support" target="_blank">Gitee</a> /     
+        </div>  
+    </div>
+
+    <script>
+        // 语言切换功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.lang-tab');
+            const contents = document.querySelectorAll('.lang-content');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // 移除所有活动状态
+                    tabs.forEach(t => t.classList.remove('active'));
+                    contents.forEach(c => c.classList.remove('active'));
+                    
+                    // 添加当前活动状态
+                    tab.classList.add('active');
+                    const lang = tab.getAttribute('data-lang');
+                    document.getElementById(`lang-${lang}`).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
