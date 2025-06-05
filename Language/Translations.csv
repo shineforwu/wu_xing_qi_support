@@ -1,0 +1,47 @@
+﻿id,en,zh,ja,ko
+Start,Start,开始,スタート,시작
+Language,Language,语言,言語,언어
+English,English,English,English,English
+中文,中文,中文,中文,中文
+日本語,日本語,日本語,日本語,日本語
+한국어,한국어,한국어,한국어,한국어
+Local Network,Local Network,单机模式,スタンドアロンモード,독립 실행형 모드
+Online Play,Online Play,联网模式,ネットワークモード,네트워킹 모드
+Exit,Exit,退出,終了,종료
+Go Back,Go Back,返回,リターンマッチ,반환
+Refresh,Refresh,刷新,リフレッシュ,새로 고침
+Invite,Invite,邀请,に勧める,초대
+Online,Online,在线,オンライン,온라인
+Offline,Offline,离线,オフライン,오프라인
+Prompt,Prompt,提示,ヒント,힌트
+"Steam information loading failed, please ensure that Steam is running properly.","Steam information loading failed, please ensure that Steam is running properly.",Steam信息加载失败，请确保Steam正常运行。,Steam情報のロードに失敗しました。Steamが正常に動作していることを確認してください。,Steam 정보를 로드하지 못했습니다. Steam이 제대로 작동하는지 확인하십시오.
+Create Lobby,Create Lobby,创建大厅,ロビーの作成,홀을 만들다
+Leave Lobby,Leave Lobby,离开大厅,ロビーを出る,홀을 떠나다
+Lobby,Lobby,大厅,ホール,홀
+Count,Count,数量,カウント,수량
+Create,Create,创建,作成＃サクセイ＃,작성
+Cancel,Cancel,取消,キャンセル,취소
+OK,OK,确定,を選択して、,확인
+Join In,Join In,进入,に参加,진입
+Public,Public,公开,パブリック,공개
+TRUE,TRUE,是,是,예
+FALSE,FALSE,否,否,아니오
+Number of people,Number of people,当前人数,現在の人数,현재 인원
+Kick Out,Kick Out,踢出,キックアウト,차내다
+Invite you to join the lobby,Invite you to join the lobby,邀请您加入大厅,ロビーにご招待いたします,로비에 초대합니다
+Host,Host,主机,主催する,호스트
+Player,Player,玩家,プレイヤー,플레이어
+Metal,Metal,金,金,금속
+Wood,Wood,木,木,나무
+Water,Water,水,水,물
+Fire,Fire,火,火,불
+Earth,Earth,土,土,흙
+Escape,Escape,逃跑,エスケープ,도망치다
+Element,Element,元素,エレメント,요소
+Remaining,Remaining,剩余,余剰,나머지
+Follow,Follow,跟随,について行く,따르다
+Pass,Pass,过,パス,패스
+Element Card,Element Card,元素卡,元素カード,원소 카드
+Skill Card,Skill Card,技能卡,スキルカード,기술카드
+Game Type,Game Type,游戏类型,ゲームの種類,게임 유형
+Element With Shill,Element With Shill,元素和技能,要素とスキル,요소 및 기술
