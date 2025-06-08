@@ -1,4 +1,5 @@
 ﻿id,en,zh,ja,ko
+Wu Xing Chess,Wu Xing Chess,五行棋,五行棋（ごぎょうぎ）,五行棋(오행기)
 Start,Start,开始,スタート,시작
 Language,Language,语言,言語,언어
 English,English,English,English,English
@@ -8,13 +9,14 @@ English,English,English,English,English
 Local Network,Local Network,单机模式,スタンドアロンモード,독립 실행형 모드
 Online Play,Online Play,联网模式,ネットワークモード,네트워킹 모드
 Exit,Exit,退出,終了,종료
-Go Back,Go Back,返回,リターンマッチ,반환
+Back,Back,返回,戻る,반환
 Refresh,Refresh,刷新,リフレッシュ,새로 고침
 Invite,Invite,邀请,に勧める,초대
 Online,Online,在线,オンライン,온라인
 Offline,Offline,离线,オフライン,오프라인
-Prompt,Prompt,提示,ヒント,힌트
+Prompt,Prompt,提示,ヒント,힌ト
 "Steam information loading failed, please ensure that Steam is running properly.","Steam information loading failed, please ensure that Steam is running properly.",Steam信息加载失败，请确保Steam正常运行。,Steam情報のロードに失敗しました。Steamが正常に動作していることを確認してください。,Steam 정보를 로드하지 못했습니다. Steam이 제대로 작동하는지 확인하십시오.
+Credits,Credits,制作人员,制作スタッフ,제작자
 Create Lobby,Create Lobby,创建大厅,ロビーの作成,홀을 만들다
 Leave Lobby,Leave Lobby,离开大厅,ロビーを出る,홀을 떠나다
 Lobby,Lobby,大厅,ホール,홀
@@ -45,3 +47,39 @@ Element Card,Element Card,元素卡,元素カード,원소 카드
 Skill Card,Skill Card,技能卡,スキルカード,기술카드
 Game Type,Game Type,游戏类型,ゲームの種類,게임 유형
 Element With Shill,Element With Shill,元素和技能,要素とスキル,요소 및 기술
+About,About,关于,について,정보
+About_Label_Desc_1,A Multiplayer Strategy Game Combining Intelligence and Luck.,智力与运气交织的多人策略游戏。,知力と運を絡めた多人戦略ゲーム。,지력과 운을 결합한 다인용 전략 게임。
+About_Label_Desc_2,Supports 2 - 4 players，integrating traditional Gomoku gameplay with the five Chinese elements (Metal・ Wood・Water・Fire・Earth).,支持 2 - 4人 智力博弈，融合传统五子玩法与中国五行元素（金・木・水・火・土）。,最大 2 - 4人でプレイ可能で、伝統的な五子ゲームと中国五行思想（金・木・水・火・土）を融合しました。,2 - 4 인용 전략 게임으로，전통 오목 게임과 중국의 오행(금・ 목・ 수・ 화・토) 개념을 결합했습니다。
+About_Label_Features_Title,Game Features,游戏特色,ゲーム特徴,게임 특징
+About_Label_Mechanics_Core_Elements_Title,Core Elements,核心元素,核心要素,핵심 요소
+About_Label_Mechanics_Core_Elements_Content,Five fundamental elements (Metal・ Wood・ Water・ Fire・ Earth),5种基础元素（金・木・水・火・土）,5種類の基本元素（金・木・水・火・土）,5가지 기본 요소(금・ 목・ 수・ 화・ 토)
+About_Label_Card_Composition_Title,Card Composition,卡牌构成,カード構成,카드 구성
+About_Label_Single_Cards_Title,Single - element Cards,单元素卡牌,単一元素カード,단일 요소 카드
+About_Label_Single_Cards_Content,5 types，10 cards each， 50 cards total,5种，每种10张，共50张,5種類、各10枚、計50枚,5종류，각 10장，총 50장
+About_Label_Dual_Cards_Title,Dual - element Cards,双元素卡牌,複合元素カード,복합 요소 카드
+About_Label_Dual_Cards_Content,10 types (e.g.，Metal + Wood，Metal + Water)，10 cards each，100 cards total,10种（如金+木、金+水等），每种10张，共100张,10種類（金+木、金+水など）、各10枚、計100枚,10종류(예: 금+목，금+수 등)，각 10장，총 100장
+About_Label_Four_Cards_Title,Four - element Cards,四元素卡牌,四元素カード,사요소 카드
+About_Label_Four_Cards_Content,5 types (e.g.，Metal + Wood + Water + Fire)，10 cards each，50 cards total,5种（如金+木+水+火），每种10张，共50张,5種類（金+木+水+火など）、各10枚、計50枚,5종류(예: 금+목+수+화)，각 10장，총 50장
+About_Label_Mechanics_Title,Game Mechanics,游戏机制,ゲームメカニズム,게임 메커니즘
+About_Label_Mechanics_Element_Title,Element Assignment,属性分配,属性割り当て,속성 할당
+About_Label_Mechanics_Element_Content,Each player is randomly assigned a unique element (no duplicates)，kept secret initially.,随机分配唯一元素属性（不重复），玩家初始隐藏属性。,ランダムに一意の元素属性が割り当てられ（重複なし）、プレイヤーの属性は初期状態で非公開。,무작위로 고유한 요소 속성이 할당되며(중복 불가)，플레이어의 속성은 초기에 비공개 상태입니다。
+About_Label_Mechanics_Cards_Title,Card Acquisition,卡牌获取,カード取得,카드 획득
+About_Label_Mechanics_Cards_Content,Each player starts with **3 cards** per game (temporarily set at 3，subject to adjustment).,每局开始时，每位玩家获得 **3张卡牌**（暂时定为3张，后期可能进行调整）。,各ゲーム開始時に、各プレイヤーは **3枚のカード** を取得（暫定的に3枚としていますが、後に調整される可能性があります）。,각 게임 시작 시，각 플레이어는 **3장의 카드**를 받습니다(현재 3장으로 임시 설정되어 있으며，추후 조정될 수 있습니다).
+About_Label_Mechanics_Turn_Title,Turn Rules,回合规则,ターンルール,턴 규칙
+About_Label_Mechanics_Turn_Content,Play **1 card** per turn and place it anywhere on the board.,每回合仅可打出 **1张卡牌**，放置于棋盘任意位置。,各ターンで **1枚のカード** を打ち、盤上の任意の位置に配置。,각 턴마다 **1장의 카드**를 놓을 수 있으며，체스판의 원하는 위치에 배치할 수 있습니다.
+About_Label_Mechanics_Victory_Title,Victory Conditions,胜利条件,勝利条件,승리 조건
+About_Label_Mechanics_Victory_Line_Content,Connect **five elements** in a row (horizontally，vertically，or diagonally) to win.,任意元素达成 **五子连线**（横/竖/斜），对应属性玩家获胜。,任意の元素が **5つ連続**（横・縦・斜め）で並ぶと、その元素のプレイヤーが勝利。,임의의 요소가 **5개 연속**(가로/세로/대각선)으로 연결되면 해당 요소의 플레이어가 승리합니다.
+About_Label_Mechanics_Victory_Multiple_Content,If multiple elements connect five simultaneously，the player who played their card last in the current turn wins.,若多元素同时达成连线，以 **当前回合出牌顺序** 判定，后出牌者胜。,複数の元素が同時に5つ連続した場合、現在のターンで最後にカードを打ったプレイヤーが勝利。,여러 요소가 동시에 5개 연속으로 연결된 경우，현재 턴에서 마지막으로 카드를 놓은 플레이어가 승리합니다.
+About_Label_Mechanics_Strategy_Content,Build your own element connections while blocking opponents.,构建自身元素连线，同时阻挡对手形成五子连线。,自らの元素を連結させると同時に、敵の連結を阻止する。,자신의 요소를 연결하는 동시에 상대방의 연결을 방해합니다.
+About_Label_Updates_Title,Future Updates,未来更新计划,将来のアップデート計画,향후 업데이트 계획
+About_Label_Updates_Skill_System_Content,Skill Card System,技能卡牌系统,スキルカードシステム,스킬 카드 시스템
+About_Label_Updates_Skill_Desc_Content,New cards with special effects (e.g.，remove opponent's pieces，swap elements).,新增特殊效果卡牌（如移除对手棋子、交换元素等）。,特殊効果付きの新カード（敵の駒を削除、元素を交換するなど）を追加。,특수 효과 카드(예: 상대방의 기물 제거，요소 교환 등)를 추가합니다.
+About_Label_Updates_Game_Modes_Content,Multiple Game Modes,多元竞技模式,多元的な競技モード,다양한 경기 모드
+About_Label_Updates_Modes_Desc_Content,Pure element card mode，mixed element + skill mode，timed battles，etc.,纯元素卡牌模式 / 元素+技能混合模式 / 限时对战模式等。,純粋な元素カードモード、元素+スキル混合モード、タイム制対戦モードなど。,순수 요소 카드 모드，요소+스킬 혼합 모드，시간 제한 대전 모드 등을 추가합니다.
+About_Label_Feedback_Title,Player Feedback,玩家反馈渠道,プレイヤーフィードバック,플레이어 피드백 채널
+About_Label_Feedback_Multilingual_Content,Multilingual Support,多语言优化,多言語最適化,다국어 최적화
+About_Label_Feedback_Multilingual_Desc_Content,The game currently supports multiple languages. If you find any translation errors，please provide feedback to the author.,游戏目前支持多种语言。如果发现翻译有误，请和作者反馈。,ゲームは現在、複数の言語をサポートしています。翻訳に誤りがあった場合は、著者にフィードバックしてください。,게임은 현재 다양한 언어를 지원합니다.번역에 오류가 발견되면 저자에게 피드백을 주십시오.
+About_Label_Feedback_Art_Content,Art Collaboration,美术协作,美術協力,아트 협력
+About_Label_Feedback_Art_Desc_Content,Art enthusiasts are welcome to contribute to UI design and assets.,期待美术爱好者参与界面设计与素材创作，提供建议或资源。,UIデザインや素材作成に協力していただける美術愛好家の方々の参画をお待ちしています。,UI 디자인 및 자산 제작에 도움을 주실 아트 애호가들의 참여를 기다립니다.
+About_Label_Feedback_Community_Content,Community Support,欢迎艺术爱好者通过我们的社区为UI设计和资产做出贡献。,芸術愛好家は、私たちのコミュニティを通じてUIデザインと資産に貢献することを歓迎しています。,예술 애호가들은 우리 커뮤니티를 통해 UI 디자인과 자산에 기여할 수 있습니다.
+About_Label_Feedback_Community_Desc_Content, Join our in-game community to share your experience，report issues， or suggest improvements. Your feedback helps make the game better!,加入我们的游戏社区，分享您的体验、报告问题或提出改进建议。你的反馈有助于让游戏变得更好！,ゲーム内のコミュニティに参加して，経験を共有し，問題を報告し，改善を提案します.あなたのフィードバックは、ゲームをより良くするのに役立ちます！,게임 내 커뮤니티에 가입하여 경험을 공유하거나 문제를 보고하거나 개선 방법을 제안하십시오.귀하의 피드백은 게임을 더 잘 만드는 데 도움이 됩니다!韩语
